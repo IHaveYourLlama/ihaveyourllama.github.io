@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Llama's Extraordinairé | Ctrl + Alt + Del Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="og:description" content="">
+    <meta name="author" content="I Have Your L'lama">
+    <!-- ================== BEGIN core-css ================== -->
+    <link href="assets/css/vendor.min.css" rel="stylesheet">
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <!-- ================== END core-css ================== -->
+</head>
+
+<body>
+    <!-- BEGIN #app -->
+    <div id="app" class="app app-with-top-nav">
+        <!-- Include the header -->
+        <!-- BEGIN #header -->
+        <div id="header" class="app-header">
+            <!-- BEGIN desktop-toggler -->
+            <!-- BEGIN desktop-toggler -->
+            <div class="desktop-toggler">
+                <button type="button" class="menu-toggler" data-toggle-class="app-sidebar-collapsed" data-dismiss-class="app-sidebar-toggled" data-toggle-target=".app">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <!-- END desktop-toggler -->
+            <!-- END desktop-toggler -->
+            <!-- BEGIN mobile-toggler -->
+            <!-- BEGIN mobile-toggler -->
+            <div class="mobile-toggler">
+                <button type="button" class="menu-toggler" data-toggle-class="app-sidebar-mobile-toggled" data-toggle-target=".app">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <!-- END mobile-toggler -->
+            <!-- END mobile-toggler -->
+            <!-- BEGIN header brand -->
+            <!-- BEGIN brand -->
+            <div class="brand">
+                <a href="index.html" class="brand-logo">
+                    <span class="brand-img">
+                        <span class="brand-img-text text-theme">L</span>
+                    </span>
+                    <span class="brand-text">LAMASTE</span>
+                </a>
+            </div>
+            <!-- END brand -->
+            <!-- END the header brand -->
+            <!-- BEGIN menu -->
+            <!-- BEGIN menu -->
+            <div class="menu">
+                <div class="menu-item dropdown dropdown-mobile-full">
+                    <a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+                        <div class="menu-img online">
+                            <img src="assets/img/user/profile.jpg" alt="Profile" height="60">
+                        </div>
+                        <div class="menu-text d-sm-block d-none w-170px">Llama's Extraordinairé</div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+                        <a class="dropdown-item d-flex align-items-center" href="#">Profile<i class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"></i>
+                        </a>
+                        <a class="dropdown-item d-flex align-items-center" href="#">Contact<i class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- END menu -->
+            <!-- END menu -->
+            <!-- BEGIN the top navigation -->
+            <!-- BEGIN #top-nav -->
+            <div id="top-nav" class="app-top-nav">
+                <!-- BEGIN menu -->
+                <div class="menu">
+                    <div class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="bi bi-bookmark"></i>
+                            </span>
+                            <span class="menu-text">Home</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </span>
+                            <span class="menu-text">Bounty Extravaganza</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="/bugsplaining.html" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="bi bi-bug"></i>
+                            </span>
+                            <span class="menu-text">Bugsplaining</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="bi bi-gem"></i>
+                            </span>
+                            <span class="menu-text">Templates</span>
+                        </a>
+                    </div>
+                    <div class="menu-item menu-control menu-control-start">
+                        <a href="javascript:;" class="menu-link" data-toggle="app-top-menu-prev">
+                            <i class="bi bi-caret-left"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item menu-control menu-control-end">
+                        <a href="javascript:;" class="menu-link" data-toggle="app-top-menu-next">
+                            <i class="bi bi-caret-right"></i>
+                        </a>
+                    </div>
+                    <div class="p-3 px-4 mt-auto">
+                        <a href="https://github.com/ihaveyourllama" class="btn d-block btn-outline-theme">
+                            <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> Repository </a>
+                    </div>
+                </div>
+                <!-- END menu -->
+            </div>
+            <!-- END #top-nav -->
+            <!-- END the top navigation -->
+        </div>
+        <!-- END #header -->
+        <!-- BEGIN #sidebar -->
+        <div id="sidebar" class="app-sidebar">
+            <!-- BEGIN scrollbar -->
+            <div class="app-sidebar-content" data-scrollbar="true" data-height="100%">
+                <!-- Include the profile sidebar -->
+                <!-- BEGIN profile -->
+                <div class="profile">
+                    <!-- BEGIN profile-container -->
+                    <div class="profile-container">
+                        <!-- BEGIN profile-sidebar -->
+                        <div class="profile-sidebar">
+                            <div class="desktop-sticky-top">
+                                <div class="profile-img">
+                                    <img src="assets/img/user/profile.jpg" alt="I have your llama">
+                                </div>
+                                <!-- profile info -->
+                                <h4>I Have Your L'lama</h4>
+                                <div class="mb-3 text-inverse text-opacity-50 fw-bold mt-n2">@ihaveyourllama</div>
+                                <p>Welcome to the flamboyant nook of the internet. I am your host, the mischievous prankster and delightfully witty Llama. </p>
+                                <p>This masterpiece is the digital scrapbook of your escapades in the exhilarating world of Bug Bounty hunting, and the chronicles of my ethical (and occasionally, not-so-ethical) presumptuous contemplations, sprinkled with a fair dose of snarkiness and light touch of criticism.</p>
+                                <div class="mb-1">
+                                    <p>Yours Truly,</p>
+                                    <p>🦙 Drama L'lama</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END profile-sidebar -->
+                    </div>
+                    <!-- END profile-container -->
+                </div>
+                <!-- END profile -->
+            </div>
+            <!-- END scrollbar -->
+        </div>
+        <!-- END #sidebar -->
+        <!-- BEGIN #content -->
+        <div id="content" class="app-content">
+            <!-- BEGIN profile-posts -->
+            <div class="tab-content p-0">
+                <!-- BEGIN profile-post -->
+                <div class="tab-pane fade show active" id="profile-post">
+                    <!-- BEGIN #horizontal -->
+                    <div id="horizontal" class="mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row gx-0 align-items-center">
+                                            <div class="col-md-4">
+                                                <img src="assets/img/gallery/spilling-the-bug-bounty-hex-tea.jpg" alt="" width="380" height="260" class="card-img rounded-0">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <!-- BEGIN card-body -->
+                                                <div class="card-body">
+                                                    <!-- BEGIN post-header -->
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <a href="#"><img src="assets/img/user/profile.jpg" alt="" width="50" height="50" class="rounded-circle"></a>
+                                                        <!-- BEGIN post-info -->
+                                                        <div class="flex-fill ps-2">
+                                                            <!-- BEGIN post-details -->
+                                                            <div>
+                                                                <div>
+                                                                    <a href="#" class="text-decoration-none">Ihaveyourllama</a> is spilling <a href="#" class="text-decoration-none"> some Bug Bounty HEX tea </a>
+                                                                </div>
+                                                                <div class="small text-inverse text-opacity-50 text-decoration-none">Bug Bounty Extravaganza</div>
+                                                            </div>
+                                                            <!-- END post-details -->
+                                                        </div>
+                                                        <!-- END post-info -->
+                                                        <div class="small text-inverse text-opacity-50">2023-08-18</div>
+                                                    </div>
+                                                    <!-- END post-header -->
+                                                    <!-- BEGIN post-excerpt -->
+                                                    <h5> Peeking Behind the Bug Bounty Curtain </h5>
+                                                    <p>
+                                                        <small class="text-muted"> Today, I embark on a self-assigned mission to bring some much-needed balance to this chaotic universe. I&#39;m pulling back the curtain on the Sisyphean nightmare that is managing enterprise bug bounty programs. So, hold your horses—this isn&#39;t a standing ovation kind of show. We&#39;re here to hold up the mirror of absurdity and address the landscape of digital follies, one facepalm at a time. </small>
+                                                    </p>
+                                                    <!-- END post-excerpt -->
+                                                    <!-- BEGIN post-link -->
+                                                    <button class="btn btn-outline-theme" type="button">
+                                                        <a href="/peeking-behind-the-bug-bounty-curtain.html" style="color: inherit;" onmouseover="this.style.color='inherit';" onmouseout="this.style.color='inherit';">Show more</a>
+                                                    </button>
+                                                    <!-- END post-link -->
+                                                </div>
+                                                <!-- END card-body -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- BEGIN arrow-graphics -->
+                                    <!-- BEGIN card-arrow -->
+                                    <div class="card-arrow">
+                                        <div class="card-arrow-top-left"></div>
+                                        <div class="card-arrow-top-right"></div>
+                                        <div class="card-arrow-bottom-left"></div>
+                                        <div class="card-arrow-bottom-right"></div>
+                                    </div>
+                                    <!-- END card-arrow -->
+                                    <!-- END arrow-graphics -->
+                                </div>
+                            </div>
+                            <!-- BEGIN arrow-graphics -->
+                            <!-- BEGIN card-arrow -->
+                            <div class="card-arrow">
+                                <div class="card-arrow-top-left"></div>
+                                <div class="card-arrow-top-right"></div>
+                                <div class="card-arrow-bottom-left"></div>
+                                <div class="card-arrow-bottom-right"></div>
+                            </div>
+                            <!-- END card-arrow -->
+                            <!-- END arrow-graphics -->
+                        </div>
+                    </div>
+                    <!-- END #horizontal -->
+                </div>
+                <!-- END profile-post -->
+                <!-- BEGIN profile-post -->
+                <div class="tab-pane fade show active" id="profile-post">
+                    <!-- BEGIN #horizontal -->
+                    <div id="horizontal" class="mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row gx-0 align-items-center">
+                                            <div class="col-md-4">
+                                                <img src="assets/img/gallery/why-is-it-taking-you-so-long-bug-bounty-edition(1).jpg" alt="" width="380" height="260" class="card-img rounded-0">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <!-- BEGIN card-body -->
+                                                <div class="card-body">
+                                                    <!-- BEGIN post-header -->
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <a href="#"><img src="assets/img/user/profile.jpg" alt="" width="50" height="50" class="rounded-circle"></a>
+                                                        <!-- BEGIN post-info -->
+                                                        <div class="flex-fill ps-2">
+                                                            <!-- BEGIN post-details -->
+                                                            <div>
+                                                                <div>
+                                                                    <a href="#" class="text-decoration-none">Ihaveyourllama</a> is feeling <a href="#" class="text-decoration-none"> sorry for itself </a>
+                                                                </div>
+                                                                <div class="small text-inverse text-opacity-50 text-decoration-none">Bug Bounty Extravaganza</div>
+                                                            </div>
+                                                            <!-- END post-details -->
+                                                        </div>
+                                                        <!-- END post-info -->
+                                                        <div class="small text-inverse text-opacity-50">2023-08-19</div>
+                                                    </div>
+                                                    <!-- END post-header -->
+                                                    <!-- BEGIN post-excerpt -->
+                                                    <h5> Are We There Yet? </h5>
+                                                    <p>
+                                                        <small class="text-muted"> Ready for a belly laugh—or maybe a facepalm? Dive into &#39;Are We There Yet: Bug Bounty Edition,&#39; where we tackle the comedic tragedy of eager beavers flooding your inbox with &#39;first-time&#39; bug reports. Spoiler: No, we&#39;re not there yet, and your cheesy one-liner isn&#39;t getting you any closer. Today we are peeling back the curtain on the eager beavers flooding inboxes with hopes and dreams, but mostly just really bad reports. Brace yourself: It&#39;s going to be a cringe-worthy ride. </small>
+                                                    </p>
+                                                    <!-- END post-excerpt -->
+                                                    <!-- BEGIN post-link -->
+                                                    <button class="btn btn-outline-theme" type="button">
+                                                        <a href="/are-we-there-yet-bug-bounty-edition.html" style="color: inherit;" onmouseover="this.style.color='inherit';" onmouseout="this.style.color='inherit';">Show more</a>
+                                                    </button>
+                                                    <!-- END post-link -->
+                                                </div>
+                                                <!-- END card-body -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- BEGIN arrow-graphics -->
+                                    <!-- BEGIN card-arrow -->
+                                    <div class="card-arrow">
+                                        <div class="card-arrow-top-left"></div>
+                                        <div class="card-arrow-top-right"></div>
+                                        <div class="card-arrow-bottom-left"></div>
+                                        <div class="card-arrow-bottom-right"></div>
+                                    </div>
+                                    <!-- END card-arrow -->
+                                    <!-- END arrow-graphics -->
+                                </div>
+                            </div>
+                            <!-- BEGIN arrow-graphics -->
+                            <!-- BEGIN card-arrow -->
+                            <div class="card-arrow">
+                                <div class="card-arrow-top-left"></div>
+                                <div class="card-arrow-top-right"></div>
+                                <div class="card-arrow-bottom-left"></div>
+                                <div class="card-arrow-bottom-right"></div>
+                            </div>
+                            <!-- END card-arrow -->
+                            <!-- END arrow-graphics -->
+                        </div>
+                    </div>
+                    <!-- END #horizontal -->
+                </div>
+                <!-- END profile-post -->
+                <!-- BEGIN profile-post -->
+                <div class="tab-pane fade show active" id="profile-post">
+                    <!-- BEGIN #horizontal -->
+                    <div id="horizontal" class="mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row gx-0 align-items-center">
+                                            <div class="col-md-4">
+                                                <img src="assets/img/gallery/why-is-it-taking-you-so-long-bug-bounty-edition(2).jpg" alt="" width="380" height="260" class="card-img rounded-0">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <!-- BEGIN card-body -->
+                                                <div class="card-body">
+                                                    <!-- BEGIN post-header -->
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <a href="#"><img src="assets/img/user/profile.jpg" alt="" width="50" height="50" class="rounded-circle"></a>
+                                                        <!-- BEGIN post-info -->
+                                                        <div class="flex-fill ps-2">
+                                                            <!-- BEGIN post-details -->
+                                                            <div>
+                                                                <div>
+                                                                    <a href="#" class="text-decoration-none">Ihaveyourllama</a> is feeling <a href="#" class="text-decoration-none"> weary </a>
+                                                                </div>
+                                                                <div class="small text-inverse text-opacity-50 text-decoration-none">Bug Bounty Extravaganza</div>
+                                                            </div>
+                                                            <!-- END post-details -->
+                                                        </div>
+                                                        <!-- END post-info -->
+                                                        <div class="small text-inverse text-opacity-50">2023-08-23</div>
+                                                    </div>
+                                                    <!-- END post-header -->
+                                                    <!-- BEGIN post-excerpt -->
+                                                    <h5> Why Is It Taking You So Long? </h5>
+                                                    <p>
+                                                        <small class="text-muted"> Ever wondered why it takes &#39;so long&#39; for your bug report to get any attention? Think you could do it faster? Think again. Dive into &#39;What&#39;s Taking You So Long: Bug Bounty Edition&#39; and discover the hidden layers of triage, the labyrinth of responsibility, and the complexities of assessing business impact. If you&#39;ve ever sent a &#39;this is critical!!!1!&#39; email, this one&#39;s for you. Click to understand the intricate dance that is bug bounty triaging. </small>
+                                                    </p>
+                                                    <!-- END post-excerpt -->
+                                                    <!-- BEGIN post-link -->
+                                                    <button class="btn btn-outline-theme" type="button">
+                                                        <a href="/what-is-it-taking-you-so-long-bug-bounty-edition.html" style="color: inherit;" onmouseover="this.style.color='inherit';" onmouseout="this.style.color='inherit';">Show more</a>
+                                                    </button>
+                                                    <!-- END post-link -->
+                                                </div>
+                                                <!-- END card-body -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- BEGIN arrow-graphics -->
+                                    <!-- BEGIN card-arrow -->
+                                    <div class="card-arrow">
+                                        <div class="card-arrow-top-left"></div>
+                                        <div class="card-arrow-top-right"></div>
+                                        <div class="card-arrow-bottom-left"></div>
+                                        <div class="card-arrow-bottom-right"></div>
+                                    </div>
+                                    <!-- END card-arrow -->
+                                    <!-- END arrow-graphics -->
+                                </div>
+                            </div>
+                            <!-- BEGIN arrow-graphics -->
+                            <!-- BEGIN card-arrow -->
+                            <div class="card-arrow">
+                                <div class="card-arrow-top-left"></div>
+                                <div class="card-arrow-top-right"></div>
+                                <div class="card-arrow-bottom-left"></div>
+                                <div class="card-arrow-bottom-right"></div>
+                            </div>
+                            <!-- END card-arrow -->
+                            <!-- END arrow-graphics -->
+                        </div>
+                    </div>
+                    <!-- END #horizontal -->
+                </div>
+                <!-- END profile-post -->
+                <!-- BEGIN profile-post -->
+                <div class="tab-pane fade show active" id="profile-post">
+                    <!-- BEGIN #horizontal -->
+                    <div id="horizontal" class="mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card mb-3">
+                                    <div class="card-body">
+                                        <div class="row gx-0 align-items-center">
+                                            <div class="col-md-4">
+                                                <img src="assets/img/gallery/the-fine-art-of-avoidance-bug-bounty-edition.jpg" alt="" width="380" height="260" class="card-img rounded-0">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <!-- BEGIN card-body -->
+                                                <div class="card-body">
+                                                    <!-- BEGIN post-header -->
+                                                    <div class="d-flex align-items-center mb-3">
+                                                        <a href="#"><img src="assets/img/user/profile.jpg" alt="" width="50" height="50" class="rounded-circle"></a>
+                                                        <!-- BEGIN post-info -->
+                                                        <div class="flex-fill ps-2">
+                                                            <!-- BEGIN post-details -->
+                                                            <div>
+                                                                <div>
+                                                                    <a href="#" class="text-decoration-none">Ihaveyourllama</a> is working <a href="#" class="text-decoration-none"> hard </a>
+                                                                </div>
+                                                                <div class="small text-inverse text-opacity-50 text-decoration-none">Bug Bounty Extravaganza</div>
+                                                            </div>
+                                                            <!-- END post-details -->
+                                                        </div>
+                                                        <!-- END post-info -->
+                                                        <div class="small text-inverse text-opacity-50">2023-08-26</div>
+                                                    </div>
+                                                    <!-- END post-header -->
+                                                    <!-- BEGIN post-excerpt -->
+                                                    <h5> The Fine Art Of Avoidance </h5>
+                                                    <p>
+                                                        <small class="text-muted"> Why? Because nothing says &#39;I&#39;ll get to it when I&#39;m good and ready&#39; quite like ignoring your pestering emails while I sort through years of digital clutter or engage in spirited debates about Oxford commas. Oh, I&#39;ll get to your bug. Eventually. But rest assured, the more you nag, the further down the rabbit hole of menial tasks I go. So, go ahead, send that follow-up email. I&#39;ve got a drawer that needs organizing. </small>
+                                                    </p>
+                                                    <!-- END post-excerpt -->
+                                                    <!-- BEGIN post-link -->
+                                                    <button class="btn btn-outline-theme" type="button">
+                                                        <a href="/the-fine-art-of-avoidance.html" style="color: inherit;" onmouseover="this.style.color='inherit';" onmouseout="this.style.color='inherit';">Show more</a>
+                                                    </button>
+                                                    <!-- END post-link -->
+                                                </div>
+                                                <!-- END card-body -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- BEGIN arrow-graphics -->
+                                    <!-- BEGIN card-arrow -->
+                                    <div class="card-arrow">
+                                        <div class="card-arrow-top-left"></div>
+                                        <div class="card-arrow-top-right"></div>
+                                        <div class="card-arrow-bottom-left"></div>
+                                        <div class="card-arrow-bottom-right"></div>
+                                    </div>
+                                    <!-- END card-arrow -->
+                                    <!-- END arrow-graphics -->
+                                </div>
+                            </div>
+                            <!-- BEGIN arrow-graphics -->
+                            <!-- BEGIN card-arrow -->
+                            <div class="card-arrow">
+                                <div class="card-arrow-top-left"></div>
+                                <div class="card-arrow-top-right"></div>
+                                <div class="card-arrow-bottom-left"></div>
+                                <div class="card-arrow-bottom-right"></div>
+                            </div>
+                            <!-- END card-arrow -->
+                            <!-- END arrow-graphics -->
+                        </div>
+                    </div>
+                    <!-- END #horizontal -->
+                </div>
+                <!-- END profile-post -->
+            </div>
+            <!-- END profile-posts -->
+        </div>
+        <!-- END #content -->
+        <!-- BEGIN theme-panel -->
+        <div class="app-theme-panel">
+            <div class="app-theme-panel-container">
+                <a href="javascript:;" data-toggle="theme-panel-expand" class="app-theme-toggle-btn">
+                    <i class="bi bi-sliders"></i>
+                </a>
+                <div class="app-theme-panel-content">
+                    <div class="small fw-bold text-inverse mb-1">Display Mode</div>
+                    <div class="card mb-3">
+                        <!-- BEGIN card-body -->
+                        <div class="card-body p-2">
+                            <div class="row gx-2">
+                                <div class="col-6">
+                                    <a href="javascript:;" data-toggle="theme-mode-selector" data-theme-mode="dark" class="app-theme-mode-link active">
+                                        <div class="img"><img src="assets/img/mode/dark.jpg" class="object-fit-cover" height="76" width="76" alt="Dark Mode"></div>
+                                        <div class="text">Dark</div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="javascript:;" data-toggle="theme-mode-selector" data-theme-mode="light" class="app-theme-mode-link">
+                                        <div class="img"><img src="assets/img/mode/light.jpg" class="object-fit-cover" height="76" width="76" alt="Light Mode"></div>
+                                        <div class="text">Light</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END card-body -->
+                        <!-- BEGIN card-arrow -->
+                        <!-- BEGIN card-arrow -->
+                        <div class="card-arrow">
+                            <div class="card-arrow-top-left"></div>
+                            <div class="card-arrow-top-right"></div>
+                            <div class="card-arrow-bottom-left"></div>
+                            <div class="card-arrow-bottom-right"></div>
+                        </div>
+                        <!-- END card-arrow -->
+                        <!-- END card-arrow -->
+                    </div>
+                    <div class="small fw-bold text-inverse mb-1">Theme Color</div>
+                    <div class="card mb-3">
+                        <!-- BEGIN card-body -->
+                        <div class="card-body p-2">
+                            <!-- BEGIN theme-list -->
+                            <div class="app-theme-list">
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-pink" data-theme-class="theme-pink" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Pink">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-red" data-theme-class="theme-red" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Red">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-warning" data-theme-class="theme-warning" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Orange">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-yellow" data-theme-class="theme-yellow" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Yellow">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-lime" data-theme-class="theme-lime" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Lime">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-green" data-theme-class="theme-green" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Green">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item active">
+                                    <a href="javascript:;" class="app-theme-list-link bg-teal" data-theme-class="" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Default">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-info" data-theme-class="theme-info" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cyan">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-primary" data-theme-class="theme-primary" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Blue">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-purple" data-theme-class="theme-purple" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Purple">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-indigo" data-theme-class="theme-indigo" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Indigo">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-gray-100" data-theme-class="theme-gray-200" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Gray">&nbsp;</a>
+                                </div>
+                            </div>
+                            <!-- END theme-list -->
+                        </div>
+                        <!-- END card-body -->
+                        <!-- BEGIN card-arrow -->
+                        <!-- BEGIN card-arrow -->
+                        <div class="card-arrow">
+                            <div class="card-arrow-top-left"></div>
+                            <div class="card-arrow-top-right"></div>
+                            <div class="card-arrow-bottom-left"></div>
+                            <div class="card-arrow-bottom-right"></div>
+                        </div>
+                        <!-- END card-arrow -->
+                        <!-- END card-arrow -->
+                    </div>
+                    <div class="small fw-bold text-inverse mb-1">Theme Cover</div>
+                    <div class="card">
+                        <!-- BEGIN card-body -->
+                        <div class="card-body p-2">
+                            <!-- BEGIN theme-cover -->
+                            <div class="app-theme-cover">
+                                <div class="app-theme-cover-item active">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-1.jpg);" data-theme-cover-class="" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Default">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-2.jpg);" data-theme-cover-class="bg-cover-2" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 2">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-3.jpg);" data-theme-cover-class="bg-cover-3" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 3">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-4.jpg);" data-theme-cover-class="bg-cover-4" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 4">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-5.jpg);" data-theme-cover-class="bg-cover-5" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 5">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-6.jpg);" data-theme-cover-class="bg-cover-6" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 6">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-7.jpg);" data-theme-cover-class="bg-cover-7" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 7">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-8.jpg);" data-theme-cover-class="bg-cover-8" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 8">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-9.jpg);" data-theme-cover-class="bg-cover-9" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 9">&nbsp;</a>
+                                </div>
+                            </div>
+                            <!-- END theme-cover -->
+                        </div>
+                        <!-- END card-body -->
+                        <!-- BEGIN card-arrow -->
+                        <!-- BEGIN card-arrow -->
+                        <div class="card-arrow">
+                            <div class="card-arrow-top-left"></div>
+                            <div class="card-arrow-top-right"></div>
+                            <div class="card-arrow-bottom-left"></div>
+                            <div class="card-arrow-bottom-right"></div>
+                        </div>
+                        <!-- END card-arrow -->
+                        <!-- END card-arrow -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END theme-panel -->
+        <!-- BEGIN btn-scroll-top -->
+        <a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+        <!-- END btn-scroll-top -->
+        <!-- END #app -->
+    </div>
+    </div>
+    <!-- END #app -->
+    <script src="assets/js/demo/highlightjs.demo.js"></script>
+    <!-- ================== BEGIN core-js ================== -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <!-- ================== END core-js ================== -->
+</body>
+
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Llama's Extraordinairé | Are we there yet Bug Bounty analogy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="og:description" content="">
+    <meta name="author" content="I Have Your L'lama">
+    <!-- ================== BEGIN core-css ================== -->
+    <link href="assets/css/vendor.min.css" rel="stylesheet">
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <!-- ================== END core-css ================== -->
+</head>
+
+<body>
+    <!-- BEGIN #app -->
+    <div id="app" class="app app-with-top-nav">
+        <!-- Include the header -->
+        <!-- BEGIN #header -->
+        <div id="header" class="app-header">
+            <!-- BEGIN desktop-toggler -->
+            <!-- BEGIN desktop-toggler -->
+            <div class="desktop-toggler">
+                <button type="button" class="menu-toggler" data-toggle-class="app-sidebar-collapsed" data-dismiss-class="app-sidebar-toggled" data-toggle-target=".app">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <!-- END desktop-toggler -->
+            <!-- END desktop-toggler -->
+            <!-- BEGIN mobile-toggler -->
+            <!-- BEGIN mobile-toggler -->
+            <div class="mobile-toggler">
+                <button type="button" class="menu-toggler" data-toggle-class="app-sidebar-mobile-toggled" data-toggle-target=".app">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            <!-- END mobile-toggler -->
+            <!-- END mobile-toggler -->
+            <!-- BEGIN header brand -->
+            <!-- BEGIN brand -->
+            <div class="brand">
+                <a href="index.html" class="brand-logo">
+                    <span class="brand-img">
+                        <span class="brand-img-text text-theme">L</span>
+                    </span>
+                    <span class="brand-text">LAMASTE</span>
+                </a>
+            </div>
+            <!-- END brand -->
+            <!-- END the header brand -->
+            <!-- BEGIN menu -->
+            <!-- BEGIN menu -->
+            <div class="menu">
+                <div class="menu-item dropdown dropdown-mobile-full">
+                    <a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+                        <div class="menu-img online">
+                            <img src="assets/img/user/profile.jpg" alt="Profile" height="60">
+                        </div>
+                        <div class="menu-text d-sm-block d-none w-170px">Llama's Extraordinairé</div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+                        <a class="dropdown-item d-flex align-items-center" href="#">Profile<i class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"></i>
+                        </a>
+                        <a class="dropdown-item d-flex align-items-center" href="#">Contact<i class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- END menu -->
+            <!-- END menu -->
+            <!-- BEGIN the top navigation -->
+            <!-- BEGIN #top-nav -->
+            <div id="top-nav" class="app-top-nav">
+                <!-- BEGIN menu -->
+                <div class="menu">
+                    <div class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="bi bi-bookmark"></i>
+                            </span>
+                            <span class="menu-text">Home</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </span>
+                            <span class="menu-text">Bounty Extravaganza</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="/bugsplaining.html" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="bi bi-bug"></i>
+                            </span>
+                            <span class="menu-text">Bugsplaining</span>
+                        </a>
+                    </div>
+                    <div class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span class="menu-icon">
+                                <i class="bi bi-gem"></i>
+                            </span>
+                            <span class="menu-text">Templates</span>
+                        </a>
+                    </div>
+                    <div class="menu-item menu-control menu-control-start">
+                        <a href="javascript:;" class="menu-link" data-toggle="app-top-menu-prev">
+                            <i class="bi bi-caret-left"></i>
+                        </a>
+                    </div>
+                    <div class="menu-item menu-control menu-control-end">
+                        <a href="javascript:;" class="menu-link" data-toggle="app-top-menu-next">
+                            <i class="bi bi-caret-right"></i>
+                        </a>
+                    </div>
+                    <div class="p-3 px-4 mt-auto">
+                        <a href="https://github.com/ihaveyourllama" class="btn d-block btn-outline-theme">
+                            <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> Repository </a>
+                    </div>
+                </div>
+                <!-- END menu -->
+            </div>
+            <!-- END #top-nav -->
+            <!-- END the top navigation -->
+        </div>
+        <!-- END #header -->
+        <!-- BEGIN #sidebar -->
+        <div id="sidebar" class="app-sidebar">
+            <!-- BEGIN scrollbar -->
+            <div class="app-sidebar-content" data-scrollbar="true" data-height="100%">
+                <!-- Include the profile sidebar -->
+                <!-- BEGIN profile -->
+                <div class="profile">
+                    <!-- BEGIN profile-container -->
+                    <div class="profile-container">
+                        <!-- BEGIN profile-sidebar -->
+                        <div class="profile-sidebar">
+                            <div class="desktop-sticky-top">
+                                <div class="profile-img">
+                                    <img src="assets/img/user/profile.jpg" alt="I have your llama">
+                                </div>
+                                <!-- profile info -->
+                                <h4>I Have Your L'lama</h4>
+                                <div class="mb-3 text-inverse text-opacity-50 fw-bold mt-n2">@ihaveyourllama</div>
+                                <p>Welcome to the flamboyant nook of the internet. I am your host, the mischievous prankster and delightfully witty Llama. </p>
+                                <p>This masterpiece is the digital scrapbook of your escapades in the exhilarating world of Bug Bounty hunting, and the chronicles of my ethical (and occasionally, not-so-ethical) presumptuous contemplations, sprinkled with a fair dose of snarkiness and light touch of criticism.</p>
+                                <div class="mb-1">
+                                    <p>Yours Truly,</p>
+                                    <p>🦙 Drama L'lama</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END profile-sidebar -->
+                    </div>
+                    <!-- END profile-container -->
+                </div>
+                <!-- END profile -->
+                <!-- END menu -->
+            </div>
+            <!-- END scrollbar -->
+        </div>
+        <!-- END #sidebar -->
+        <!-- BEGIN #content -->
+        <div id="content" class="app-content">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">POSTS</a>
+                </li>
+                <li class="breadcrumb-item active">BUG BOUNTY EXTGRAVAGANZA</li>
+            </ul>
+            <h1 class="page-header">Are we there yet Bug Bounty analogy<small> </small></h1>
+            <hr class="mb-4">
+            <p>Hello to the unsung heroes, caffeine-addicted coders, and every bug hunter who has ever tapped their foot impatiently, waiting for that precious update on their submitted report! Let's take a quick detour to childhood (or last summer's road trip with your kids). Remember that endless chant from the backseat: "Are we there yet? Are we there yet?" Now, transform that car into the cyber realm, and voila, you have the <code>'Do you have any update?'</code> symphony playing on a loop in our inboxes. 🎶</p>
+            <p>Ah, the melodious refrain of 'Any update on the bug report?' echoes in our ears. Ah, yes. The relentless ping, reminiscent of every child's timeless road trip inquiry, "Are we there yet?" This question, an eternal echo in the ears of triagers, is as inevitable as sunrise, taxes, and the ever-elusive P1 bounty. It's become the soundtrack to our lives, the rhythm to our code-typing symphony. We get it, the anticipation, the curiosity, the need for closure. But as the old adage goes - good things come to those who wait, and good bug resolutions come to those who wait without sending five reminders a day.</p>
+            <p>Now, as much as we adore the enthusiasm (truly, we do), let’s dive into the darkly comedic abyss of this beloved ritual. Allow me to paint a backstage picture for you. Once upon a digital realm, bug bounty hunters worldwide embarked on epic quests to uncover treacherous vulnerabilities, seeking fame, fortune, and above all... timely updates. It's a serene day in BountyLand, and triager John's just settled into his ergonomic gaming chair (bought after months of triaging to earn enough for it, mind you). With his caffeine elixir by his side, he's ready to wage war against the monstrous stack of reports looming ominously on his dashboard. An echo from the abyss, a recurrent whisper from every corner of the bug bounty forests look something like this:</p>
+            <p>&nbsp;</p>
+            <p>📩 01:05 AM PING!</p>
+            <p>"Hello, Bug Bounty Team. I hope this email finds you well. I was just inquiring if perchance you might have had the opportunity to peruse my bug submission from two hours ago? Warmest regards, [Name]"</p>
+            <p>📩 03:01 AM PING!</p>
+            <p>"Hi! Just following up on my previous email. Any update on that submission? Thanks! :)"</p>
+            <p>📩 04:03 AM PING!</p>
+            <p>"Hey, any update?"</p>
+            <p>📩 04:55 AM PING!</p>
+            <p>"Any update?"</p>
+            <p>📩 05:35 AM PING!</p>
+            <p>"Update?"</p>
+            <p>&nbsp;</p>
+            <p>Every 'any update?' ping is like a tiny bug buzzing in our ears - mildly annoying, makes us fantasize about clipping a bug's metaphorical wings. Or, in more drastic measures, sending it the way of the dodo. Keep in mind, that for every repeat 'update' query, somewhere a triager earns a new grey hair or a migraine and an imaginary llama cries. It's a two-for-one deal, no coupons required! Now, don't get us wrong - we love your enthusiasm. It's just that, well, each reminder lands like a bug buzzing in our ear, an itch we can't quite scratch, a rogue llama on the loose. And let's face it - nothing makes us want to cut a bug's metaphorical legs off more than a good old fashioned rush job. Just hold your llamas. Bugs are like fine wine. They take time to mature, be analyzed, and then be appreciated (or squashed). Give us some time to wrestle those bugs, spar with those vulnerabilities, and eventually emerge victorious from the battlefield that is our codebase.</p>
+            <p>However, there's a cheeky revelation: Just like parents driving a car, triagers are, in fact, trying to get "there" - to the resolution of your report. They're navigating treacherous terrains of code, dodging pot-holes of false positives, refueling with caffeinated brews, and even occasionally taking detours around existential crisis boulevards. So, my audacious adventurers, while the anticipation and excitement of bounty results can rival the allure of a long-awaited holiday destination, remember: A bit of patience can make the journey smoother for everyone involved. And, much like the road trip scenario, incessantly asking "Are we there yet?" does not, in fact, speed up the car. If anything, it might make our dear triager-parent think about taking a longer route - just for the serene silence.</p>
+            <p>So here's the deal, valued hunters: When we have an update, you'll be the first to know. We promise. We'll shout it from the digital rooftops, ring the update bells, release the llamas! We'll even send a chorus of virtual pigeons your way (for backup, you know, can't risk any of them getting lost in the cyberspace), each carrying the news of the vanquished bugs. Your patience, while we're brewing the perfect bug-fixing potion, is more appreciated than you know, not to mention that bug resolution news arrives faster without the constant echo of 'any update?' spam. After all, as in all quests, mutual respect and understanding are the most potent spells one can cast. Remember, patience is a virtue, and a bug-free codebase is the best reward.</p>
+            <p><code>Triager's Tip of the Day: Distract yourself!</code> In the meantime, sip some coffee, pet a llama, and resist the temptation to prod for updates. Better yet, dive back into the trenches and uncover another bug for us to wrestle (we're masochists like that). Because nothing says 'I can wait' like finding even more work for us (just kidding!). Maybe binge a new TV show, or engage in the therapeutic act of sending hilarious memes to fellow hunters (that don't involve the triage process).</p>
+            <p>To smoother digital roads and timely updates, without the deluge of déjà vu! 🛣️🐞</p>
+            <p>Yours in 'update-requested' anguish,</p>
+            <p>🦙 Drama L'lama</p>
+        </div>
+        <!-- END #content -->
+        <!-- BEGIN theme-panel -->
+        <div class="app-theme-panel">
+            <div class="app-theme-panel-container">
+                <a href="javascript:;" data-toggle="theme-panel-expand" class="app-theme-toggle-btn">
+                    <i class="bi bi-sliders"></i>
+                </a>
+                <div class="app-theme-panel-content">
+                    <div class="small fw-bold text-inverse mb-1">Display Mode</div>
+                    <div class="card mb-3">
+                        <!-- BEGIN card-body -->
+                        <div class="card-body p-2">
+                            <div class="row gx-2">
+                                <div class="col-6">
+                                    <a href="javascript:;" data-toggle="theme-mode-selector" data-theme-mode="dark" class="app-theme-mode-link active">
+                                        <div class="img"><img src="assets/img/mode/dark.jpg" class="object-fit-cover" height="76" width="76" alt="Dark Mode"></div>
+                                        <div class="text">Dark</div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="javascript:;" data-toggle="theme-mode-selector" data-theme-mode="light" class="app-theme-mode-link">
+                                        <div class="img"><img src="assets/img/mode/light.jpg" class="object-fit-cover" height="76" width="76" alt="Light Mode"></div>
+                                        <div class="text">Light</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END card-body -->
+                        <!-- BEGIN card-arrow -->
+                        <!-- BEGIN card-arrow -->
+                        <div class="card-arrow">
+                            <div class="card-arrow-top-left"></div>
+                            <div class="card-arrow-top-right"></div>
+                            <div class="card-arrow-bottom-left"></div>
+                            <div class="card-arrow-bottom-right"></div>
+                        </div>
+                        <!-- END card-arrow -->
+                        <!-- END card-arrow -->
+                    </div>
+                    <div class="small fw-bold text-inverse mb-1">Theme Color</div>
+                    <div class="card mb-3">
+                        <!-- BEGIN card-body -->
+                        <div class="card-body p-2">
+                            <!-- BEGIN theme-list -->
+                            <div class="app-theme-list">
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-pink" data-theme-class="theme-pink" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Pink">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-red" data-theme-class="theme-red" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Red">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-warning" data-theme-class="theme-warning" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Orange">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-yellow" data-theme-class="theme-yellow" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Yellow">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-lime" data-theme-class="theme-lime" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Lime">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-green" data-theme-class="theme-green" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Green">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item active">
+                                    <a href="javascript:;" class="app-theme-list-link bg-teal" data-theme-class="" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Default">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-info" data-theme-class="theme-info" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cyan">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-primary" data-theme-class="theme-primary" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Blue">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-purple" data-theme-class="theme-purple" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Purple">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-indigo" data-theme-class="theme-indigo" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Indigo">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-list-item">
+                                    <a href="javascript:;" class="app-theme-list-link bg-gray-100" data-theme-class="theme-gray-200" data-toggle="theme-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Gray">&nbsp;</a>
+                                </div>
+                            </div>
+                            <!-- END theme-list -->
+                        </div>
+                        <!-- END card-body -->
+                        <!-- BEGIN card-arrow -->
+                        <!-- BEGIN card-arrow -->
+                        <div class="card-arrow">
+                            <div class="card-arrow-top-left"></div>
+                            <div class="card-arrow-top-right"></div>
+                            <div class="card-arrow-bottom-left"></div>
+                            <div class="card-arrow-bottom-right"></div>
+                        </div>
+                        <!-- END card-arrow -->
+                        <!-- END card-arrow -->
+                    </div>
+                    <div class="small fw-bold text-inverse mb-1">Theme Cover</div>
+                    <div class="card">
+                        <!-- BEGIN card-body -->
+                        <div class="card-body p-2">
+                            <!-- BEGIN theme-cover -->
+                            <div class="app-theme-cover">
+                                <div class="app-theme-cover-item active">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-1.jpg);" data-theme-cover-class="" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Default">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-2.jpg);" data-theme-cover-class="bg-cover-2" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 2">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-3.jpg);" data-theme-cover-class="bg-cover-3" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 3">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-4.jpg);" data-theme-cover-class="bg-cover-4" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 4">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-5.jpg);" data-theme-cover-class="bg-cover-5" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 5">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-6.jpg);" data-theme-cover-class="bg-cover-6" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 6">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-7.jpg);" data-theme-cover-class="bg-cover-7" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 7">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-8.jpg);" data-theme-cover-class="bg-cover-8" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 8">&nbsp;</a>
+                                </div>
+                                <div class="app-theme-cover-item">
+                                    <a href="javascript:;" class="app-theme-cover-link" style="background-image: url(assets/img/cover/cover-thumb-9.jpg);" data-theme-cover-class="bg-cover-9" data-toggle="theme-cover-selector" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-container="body" data-bs-title="Cover 9">&nbsp;</a>
+                                </div>
+                            </div>
+                            <!-- END theme-cover -->
+                        </div>
+                        <!-- END card-body -->
+                        <!-- BEGIN card-arrow -->
+                        <!-- BEGIN card-arrow -->
+                        <div class="card-arrow">
+                            <div class="card-arrow-top-left"></div>
+                            <div class="card-arrow-top-right"></div>
+                            <div class="card-arrow-bottom-left"></div>
+                            <div class="card-arrow-bottom-right"></div>
+                        </div>
+                        <!-- END card-arrow -->
+                        <!-- END card-arrow -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END theme-panel -->
+        <!-- BEGIN btn-scroll-top -->
+        <a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+        <!-- END btn-scroll-top -->
+        <!-- END #app -->
+    </div>
+    </div>
+    <!-- END #app -->
+    <script src="assets/js/demo/highlightjs.demo.js"></script>
+    <!-- ================== BEGIN core-js ================== -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <!-- ================== END core-js ================== -->
+</body>
+
+</html>
